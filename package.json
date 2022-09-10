@@ -1,0 +1,30 @@
+{
+  "name": "ideia-um",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoDSCruz/ideia-um.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoDSCruz/ideia-um/issues"
+  },
+  "homepage": "https://github.com/GustavoDSCruz/ideia-um#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "next": "^12.3.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0"
+  }
+}
