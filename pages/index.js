@@ -1,15 +1,27 @@
 import React from 'react';
 import reactDom from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar } from 'react-bootstrap';
 
 
-function Home(){
+
+export default function Home(){
     return(
         <>
-        <Navbar/>
-         <h1>Home</h1>
+        <p>Home</p>
+        <Contador />
         </>
         )}
 
-export default Home
+function Contador(){
+    const [contador, setContador] = useState(1);
+
+    function adicionarContador(){
+        setContador(contador + 1);
+    }
+
+    return(
+        <div>
+            <div>{contador}</div>
+        </div>
+    )
+}
