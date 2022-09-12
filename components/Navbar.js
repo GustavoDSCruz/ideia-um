@@ -1,10 +1,12 @@
 import React from 'react';
 import iconHome from './img/logo.png';
 import iconSql from './img/sql.png'
+import './css/navbar.css';
+
 export default function Navbar(){
     return (
         <>
-            <button className="icon-home">
+            <button className= "icon-home">
                 <a href="index.html">
                     <img 
                     src={iconHome}
